@@ -107,7 +107,7 @@ export default function Hero() {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-xl">
               <Image
-                src="/profile.png?height=320&width=320"
+                src="./profile.png?height=320&width=320"
                 alt="Meghna Kaushik"
                 width={320}
                 height={320}

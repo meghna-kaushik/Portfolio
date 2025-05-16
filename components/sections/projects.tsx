@@ -13,7 +13,7 @@ const projects = [
     title: "Workflow Model",
     description:
       "Developed a UI for workflow creation, user sign-up, sign-in, and management with dropdowns and conditions. Visualized JSON data and implemented a dynamic workflow tree with color-coded nodes based on data accuracy.",
-    image: "/workflowModel.png?height=300&width=600",
+    image: "./workflowModel.png?height=300&width=600",
     technologies: ["SQL", "Spring Boot", "Java", "React.js", "CSS"],
     github: "https://github.com/meghna-kaushik/Workflow-systems",
     period: "July 2024 - August 2024",
@@ -22,7 +22,7 @@ const projects = [
     title: "Chat Application",
     description:
       "Developed a mobile app facilitating user registration, sign-in, and participation in real-time chat functionalities. This application ensures secure storage of data and messages featuring timestamps to signify their sending times.",
-    image: "/chatApplication.jpeg?height=300&width=600",
+    image: "./chatApplication.jpeg?height=300&width=600",
     technologies: ["Dart", "Flutter", "Firebase Authentication", "Firebase Firestore"],
     github: "https://github.com/meghna-kaushik/chat_application",
     period: "Jan 2023 - Feb 2023",
@@ -31,7 +31,7 @@ const projects = [
     title: "Face Recognition",
     description:
       "Developed a robust attendance tracking system that accurately detects and identifies individuals from video feeds.",
-    image: "/FaceRecognization.jpeg?height=300&width=600",
+    image: "./FaceRecognization.jpeg?height=300&width=600",
     technologies: ["Python", "OpenCV"],
     github: "https://github.com/meghna-kaushik/Microsoft_face_reco_project",
     period: "May 2022 - June 2022",
@@ -87,7 +87,7 @@ export default function Projects() {
               <Card className="h-full flex flex-col overflow-hidden group">
                 <div className="relative overflow-hidden h-48">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "./placeholder.svg"}
                     alt={project.title}
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
