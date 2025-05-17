@@ -62,7 +62,7 @@ export default function Hero() {
                 Contact Me
               </Button>
               <Button variant="outline" size="lg" className="rounded-full" asChild>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="./resume.pdf" target="_blank" rel="noopener noreferrer">
                   Download CV
                 </a>
               </Button>
